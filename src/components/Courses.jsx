@@ -11,7 +11,7 @@ import StarRatings from 'react-star-ratings'
 const DYMMY_DATA = [
     {
         id:1,
-        title:"Javascript Beginners Course",
+        title:"Javascript Beginners Coursee",
         updated:"21/8/21",
         price:'33.99',
         rating:4.1,
