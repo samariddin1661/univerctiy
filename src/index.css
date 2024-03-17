@@ -30,7 +30,16 @@ code {
   width: 100%;
   height: 100vh;
   position: absolute;
-  background: #00000070;
+  background: #00000077;
+  z-index: 3;
+  left: 0;
+}
+.par:after{
+  content: " ";
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: #012f5fc3;
   z-index: 3;
   left: 0;
 }
