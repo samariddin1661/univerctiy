@@ -69,7 +69,7 @@ const Courses = () => {
         DYMMY_DATA.length === 0 ?"No courses" :DYMMY_DATA.map((item,key)=>(
            <div className='w-[300px] shadow-lg'>
         {/* card img */}
-        <div><img src={item.image} alt=""  className='h-[200px]'/></div>
+        <div><img src={item.image} alt=""  className='h-[200px grayscale-[100%] hover:grayscale-0 duration-[0.3s]'/></div>
 
         {/* card footer */}
         <div className='px-3 py-5 relative'>
