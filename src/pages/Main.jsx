@@ -5,6 +5,7 @@ import Feature from '../components/Feature'
 import Courses from '../components/Courses'
 import Ragister from '../components/Ragister'
 import Experts from '../components/Experts'
+import Footer from '../components/Footer'
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
       <Courses/>
       <Ragister/>
       <Experts/>
+      <Footer/>
     </div>
   )
 }

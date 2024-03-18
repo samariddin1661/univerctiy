@@ -48,7 +48,7 @@ const DYMMY_DATA = [
 ]
 const Experts = () => {
   return (
-    <div className='w-full my-5'>
+    <div className='w-full my-5 mb-7'>
         <Title title='Community Experts' description='Replenish man have thing gehering lights yeilding shall you'/>
         <div className='flex flex-wrap justify-center items-center gap-5 mt-8'>
           {DYMMY_DATA.map(item=>(
