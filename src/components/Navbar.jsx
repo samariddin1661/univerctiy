@@ -22,10 +22,10 @@ const Navbar = () => {
 
         {/* navItems  */}
         <div className='text-[#0a2050]   text-[16px] lg:text-[20px] font-bold '>
-                <ul className={`flex flex-col md:flex-row gap-5 md:static  absolute top-[80px] transition-[1s]  ${toggle ? 'right-0 duration-[1s]' : 'right-[-100%] duration-[3s]'}  p-5  backdrop-blur w-[50%]`}>
+                <ul className={`flex flex-col md:flex-row gap-5 md:static  absolute top-[80px] transition-[1s]  ${toggle ? 'right-0 duration-[1s]' : 'right-[-100%] duration-[3s]'}  p-5  backdrop-blur-[100px] w-[50%]`}>
 
                   {navItems.map((item,key)=>(
-                    <li key={key} className=' hover:text-[#4880aa]   after:w-0 after:rounded-r-[50px]  hover:after:w-full hover:after:h-[3px] hover:after:bg-gradient-to-l from-orange-700  after:absolute relative  hover:after:left-[0] hover:after:bottom-0 duration-[0.3s] hover:after:duration-[0.3s]' onClick={()=>setToggle(!toggle)}><a href="#">{item}</a></li>
+                    <li key={key} className=' hover:text-[#4880aa]   after:w-0 after:rounded-r-[50px]  hover:after:w-full hover:after:h-[3px] hover:after:bg-gradient-to-l from-orange-700  after:absolute relative  hover:after:left-[0] hover:after:bottom-0 duration-[0.3s] hover:after:duration-[0.3s] text-center' onClick={()=>setToggle(!toggle)}><a href="#">{item}</a></li>
                   ))}
 
                 </ul>
