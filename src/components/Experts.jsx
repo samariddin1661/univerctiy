@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './Title'
-import img1 from '../assets/per2.png'
+
 const Experts = () => {
   return (
     <div className='w-full'>
@@ -9,7 +9,7 @@ const Experts = () => {
             {/* card */}
             <div>
                 <div>
-                    <img src={img1} alt="" />
+                    <img src='' alt="" />
                 </div>
                 <div>
                     
