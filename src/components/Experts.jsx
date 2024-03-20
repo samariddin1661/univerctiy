@@ -48,11 +48,11 @@ const DYMMY_DATA = [
 ]
 const Experts = () => {
   return (
-    <div className='w-full my-5 mb-7'>
-        <Title title='Community Experts' description='Replenish man have thing gehering lights yeilding shall you'/>
-        <div className='flex flex-wrap justify-center items-center gap-5 mt-8'>
+    <div className='w-full my-[40px]'>
+        <Title title='Community Experts' description='Replenish man have thing gehering lights yeilding shall you' />
+        <div className='flex flex-wrap justify-center items-center gap-5 mt-8 my-20'>
           {DYMMY_DATA.map(item=>(
-            <div key={item.it} className='max-w-[300px] w-full  flex flex-col justify-center items-center p-5 bg-[#82a2d6] rounded-lg'>
+            <div key={item.it} className='max-w-[300px] w-full  flex flex-col justify-center items-center p-5 bg-[#aac1e6] rounded-lg'>
                 <div className=''>
                   <img src={item.img} alt="img" />
                 </div>

@@ -8,7 +8,7 @@ const Form = () => {
         <input type="text" className='outline-none border-[1px] dorder-[solid] border-[#8137a0] md:px-[5px] px-[2px] md:py-[10px] py-[6px] w-full md:text-[16px] text-[14px ] max-w-[350px]'placeholder='Name' />
         <input type="email" className='outline-none border-[1px] dorder-[solid] border-[#8137a0] md:px-[5px] px-[2px] md:py-[10px] py-[6px] w-full md:text-[16px] text-[14px ] max-w-[350px]'placeholder='Email Accress' />
         <input type="tel" className='outline-none border-[1px] dorder-[solid] border-[#8137a0] md:px-[5px] px-[2px] md:py-[10px] py-[6px] w-full md:text-[16px] text-[14px ] max-w-[350px]'placeholder='Phone Nomber' />
-        <input type="submit" value="Visit Courses" className='outline-none bg-[orange] text-[white] hover:bg-[white] hover:text-[orange] border-[1px] dorder-[solid] border-[orange] md:px-[3px] px-[2px] md:py-[10px] py-[5px] max-w-[130px] w-full md:max-w-[200px] self-start font-bold text-[18px] md:text-[14px] rounded-lg'/>
+        <input type="submit" value="Visit Courses" className='outline-none bg-[orange] text-[white] hover:bg-[white] hover:text-[orange] border-[1px] dorder-[solid] border-[orange] md:px-[3px] px-[2px] md:py-[10px] py-[5px] max-w-[130px] w-full md:max-w-[200px] self-start font-bold text-[18px] md:text-[14px] rounded-lg duration-[0.5s]'/>
       </form>
     </div>
   )
