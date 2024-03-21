@@ -64,7 +64,7 @@ const Courses = () => {
   return (
     <div className='my-2'>
       <Title title="Our Popular Courses" description="Peplenish man have thing gathering jidhts yielding shall you"/>
-     <div className='flex flex-wrap justify-center gap-5 max-w-[1373] w-full m-avto my-3'>
+     <div className='flex flex-wrap justify-center gap-5 max-w-[1373] w-full m-avto my-10'>
      {
         DYMMY_DATA.length === 0 ?"No courses" :DYMMY_DATA.map((item,key)=>(
            <div className='w-[300px] shadow-lg'>

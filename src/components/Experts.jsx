@@ -50,9 +50,9 @@ const Experts = () => {
   return (
     <div className='w-full my-[40px]'>
         <Title title='Community Experts' description='Replenish man have thing gehering lights yeilding shall you' />
-        <div className='flex flex-wrap justify-center items-center gap-5 mt-8 my-20'>
+        <div className='flex flex-wrap justify-center items-center gap-10 mt-8 my-20'>
           {DYMMY_DATA.map(item=>(
-            <div key={item.it} className='max-w-[300px] w-full  flex flex-col justify-center items-center p-5 bg-[#aac1e6] rounded-lg'>
+            <div key={item.it} className='max-w-[300px] w-full  flex flex-col justify-center items-center p-5 bg-[#c5d5f0] rounded-lg hover:shadow-2xl'>
                 <div className=''>
                   <img src={item.img} alt="img" />
                 </div>
