@@ -3,7 +3,7 @@ import back_img from "../assets/signup.jpg"
 import Form from './Form'
 const Ragister = () => {
   return (
-    <div className='h-[100vh] relative w-full par my-3 z-[9]'>  
+    <div id='Blog' className='h-[100vh] relative w-full par my-3 z-[9]'>  
         <img src={back_img} alt="back_img" className='absolute top-0 left-0 w-full h-[100%]'/> 
         <div className='absolute top-0 left-0 w-full flex flex-col lg:flex-row gap-4 md:gap-10 justify-center  md:justify-around items-center h-[100vh] z-[10]'>
           <div>

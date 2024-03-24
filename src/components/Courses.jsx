@@ -62,7 +62,7 @@ const DYMMY_DATA = [
 
 const Courses = () => {
   return (
-    <div className='my-2'>
+    <div id='Courses' className='my-2'>
       <Title title="Our Popular Courses" description="Peplenish man have thing gathering jidhts yielding shall you"/>
      <div className='flex flex-wrap justify-center gap-5 max-w-[1373] w-full m-avto my-10'>
      {

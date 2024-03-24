@@ -1,7 +1,7 @@
 import React from 'react'
 const Home = () => {
   return (
-    <div className=' relative w-full h-[100vh] parda'>
+    <div id='Home' className=' relative w-full h-[100vh] parda'>
       <div className='flex absolute z-[4] w-full h-[100vh] flex-col justify-center items-center gap-5'>
         <h1 className='lg:text-[40px] md:text-[30px] text-[20px] font-bold text-[white]'>Eng Yuqori Sifatdagi Ta'lim</h1>
         <p className='md:w-[60%] w-[80%] text-center text-[white] md:text-[18px] text-[12px]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non consectetur deleniti voluptate, omnis possimus temporibus, reiciendis culpa facere, alias cupiditate tempora ullam eius mollitia cum consequuntur ut veritatis soluta veniam.</p>
