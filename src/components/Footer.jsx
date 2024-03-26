@@ -48,7 +48,7 @@ const Footer = () => {
                 {item.email ?
                 <div className='flex justify-center items-center'>
                     <input type="email" className='border-none outline-none py-3 px-2 text-[#777] bg-[#243f7b]' placeholder='Your Email Address'/>
-                    <button className='border-none md:text-[18px] text-[14px] bg-[orange] py-3 px-2 font-bold hover:bg-[white] hover:text-[orange] duration-[0.5s]'>SUBSCRIBE</button>
+                    <button className='border-none md:text-[16px] text-[14px] bg-[orange] py-3 px-2 font-bold hover:bg-[white] hover:text-[orange] duration-[0.5s]'>SUBSCRIBE</button>
                 </div>
                 :
                 " "
